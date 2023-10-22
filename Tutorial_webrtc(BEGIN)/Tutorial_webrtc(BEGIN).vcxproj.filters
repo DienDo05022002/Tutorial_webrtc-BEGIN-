@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{e40e3b99-2dab-4edc-9cdf-ac4a610c1522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\jsoncpp">
+      <UniqueIdentifier>{6d851e42-e7db-401f-b96f-cd3bbb6cac59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nvcodec">
+      <UniqueIdentifier>{9d03cdf6-1512-444c-8409-cfc61edb8eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nvcodec\NvEncoder">
+      <UniqueIdentifier>{95018874-a734-4aac-a7ab-4563b8a8ab3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Tutorial_webrtcBEGIN.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Tutorial_webrtcBEGIN.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="Tutorial_webrtcBEGIN.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="Tutorial_webrtcBEGIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9_render.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="defaults.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="external_decoder.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="external_video_decoder_factory.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg_video_decoder_factory.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="field_trial.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="nv_encoder.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_video_capturer.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vcm_capturer.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\json_reader.cpp">
+      <Filter>src\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\json_value.cpp">
+      <Filter>src\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp\json_writer.cpp">
+      <Filter>src\jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="nvcodec\nvenc.cpp">
+      <Filter>src\nvcodec</Filter>
+    </ClCompile>
+    <ClCompile Include="nvcodec\NvEncoder\NvEncoder.cpp">
+      <Filter>src\nvcodec\NvEncoder</Filter>
+    </ClCompile>
+    <ClCompile Include="nvcodec\NvEncoder\NvEncoderD3D11.cpp">
+      <Filter>src\nvcodec\NvEncoder</Filter>
+    </ClCompile>
+    <ClCompile Include="CaptureObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3d9_render.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="defaults.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="external_decoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="external_video_decoder_factory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg_video_decoder_factory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="field_trial.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="flag_defs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="nv_encoder.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="test_video_capturer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vcm_capturer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json_batchallocator.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json_tool.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\assertions.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\autolink.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\config.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\features.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\forwards.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\json.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\reader.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\value.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncpp\json\writer.h">
+      <Filter>src\jsoncpp</Filter>
+    </ClInclude>
+    <ClInclude Include="nvcodec\encoder_info.h">
+      <Filter>src\nvcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="nvcodec\nvenc.h">
+      <Filter>src\nvcodec</Filter>
+    </ClInclude>
+    <ClInclude Include="nvcodec\NvEncoder\nvEncodeAPI.h">
+      <Filter>src\nvcodec\NvEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="nvcodec\NvEncoder\NvEncoder.h">
+      <Filter>src\nvcodec\NvEncoder</Filter>
+    </ClInclude>
+    <ClInclude Include="nvcodec\NvEncoder\NvEncoderD3D11.h">
+      <Filter>src\nvcodec\NvEncoder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="jsoncpp\json_internalarray.inl">
+      <Filter>src\jsoncpp</Filter>
+    </None>
+    <None Include="jsoncpp\json_internalmap.inl">
+      <Filter>src\jsoncpp</Filter>
+    </None>
+    <None Include="jsoncpp\json_valueiterator.inl">
+      <Filter>src\jsoncpp</Filter>
+    </None>
+    <None Include="jsoncpp\sconscript">
+      <Filter>src\jsoncpp</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CaptureObserver.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
